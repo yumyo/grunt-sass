@@ -1,13 +1,13 @@
 {
-  "name": "grunt-sass",
+  "name": "grunt-sass-chromatic",
   "version": "2.0.0",
   "description": "Compile Sass to CSS using node-sass",
   "license": "MIT",
-  "repository": "sindresorhus/grunt-sass",
+  "repository": "yumyo/grunt-sass-chromatic",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Nico Pernice",
+    "email": "k@w2b.it",
+    "url": "nicopernice.com"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -32,7 +32,8 @@
   "dependencies": {
     "each-async": "^1.0.0",
     "node-sass": "^4.0.0",
-    "object-assign": "^4.0.1"
+    "object-assign": "^4.0.1",
+    "chromatic-sass": "^0.1.8"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
