@@ -3,6 +3,7 @@ var path = require('path');
 var eachAsync = require('each-async');
 var assign = require('object-assign');
 var sass = require('node-sass');
+var chromatic = require('chromatic-sass');
 
 module.exports = function (grunt) {
 	grunt.verbose.writeln('\n' + sass.info + '\n');
@@ -22,6 +23,7 @@ module.exports = function (grunt) {
 
 			sass.render(assign({}, opts, {
 				file: src,
+				functions: chromatic,
 				outFile: el.dest
 			}), function (err, res) {
 				if (err) {
