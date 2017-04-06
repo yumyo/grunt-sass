@@ -1,3 +1,5 @@
+> This fork adds chromatic-sass to grunt-sass. For more info, please see [https://github.com/bugsnag/chromatic-sass](https://github.com/bugsnag/chromatic-sass)
+
 # grunt-sass [![Build Status](https://travis-ci.org/sindresorhus/grunt-sass.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-sass)
 
 [<img src="https://rawgit.com/sass/node-sass/master/media/logo.svg" width="150" align="right">](https://github.com/sass/node-sass)
