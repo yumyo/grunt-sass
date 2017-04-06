@@ -1,4 +1,4 @@
-> This fork adds **chromatic** to grunt-sass. For more info, please see [https://github.com/bugsnag/chromatic-sass](https://github.com/bugsnag/chromatic-sass) or just look at `tasks/sass.js`
+> This fork adds **chromatic** to grunt-sass. For more info, please see [https://github.com/bugsnag/chromatic-sass](https://github.com/bugsnag/chromatic-sass) or just look at `tasks/sass.js`. We keep it up-to-date with the original grunt-sass repo by Sindre Sorhus https://github.com/sindresorhus/grunt-sass. Respective versions should match.
 
 # grunt-sass [![Build Status](https://travis-ci.org/sindresorhus/grunt-sass.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-sass)
 
